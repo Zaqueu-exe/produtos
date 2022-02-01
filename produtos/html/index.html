@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Visualização de produtos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body onload="visualizarProdutos()">
+    <header>Visualização de produtos</header>
+    <div id="div1">
+        <p>Opções de ordenação e pesquisa</p>
+        <button onclick="crescente()">Crescente</button>
+        <button onclick="decrescente()">Decrescente</button>
+        <input type="text" name="txt1" id="txt1" value="">
+        <button onclick="pesquisarPorNome()">Pesquisar</button>
+    </div>
+    <section>
+        <div id="res"></div>
+    </section>
+
+    <script src="../javaScript/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(202, 194, 194);
+    font: normal 13pt Arial;
+}
+header{
+    text-align: center;
+    height: 50px;
+    font: normal 17pt Arial;
+}
+section{
+    background-color: rgb(114, 114, 226);
+    width: 420px;
+    margin-left: 0%;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 5px 5px 10px rgb(29, 28, 28);
+}
+#div1{
+    margin-left: 0%;
+    height: 65px;
+}
+#res{
+    margin-left: 2%;
+}
